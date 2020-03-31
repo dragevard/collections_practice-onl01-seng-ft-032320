@@ -8,8 +8,8 @@ def sort_array_desc(array)
   end 
 end 
 
-def sort_array_char-count(array)
+def sort_array_char_count(array)
   array.sort do |a, b|
-    a <=> b
+    a.length <=> b.length
   end
 end
