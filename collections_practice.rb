@@ -41,3 +41,13 @@ def sum_array(array)
     a + b
   end
 end
+
+def add_s(array)
+  array.collect do |item|
+    if item =! array[1]
+      item + "s"
+    else
+      item
+    end
+  end
+end
