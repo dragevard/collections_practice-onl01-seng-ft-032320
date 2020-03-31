@@ -35,3 +35,6 @@ def find_a(array)
     item.start_with?("a")
   end
 end
+
+def sum_array(array)
+  
